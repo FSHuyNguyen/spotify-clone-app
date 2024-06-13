@@ -10,7 +10,7 @@ const SingerItem = ({ image, name, id }) => {
       className="relative min-w-[180px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26] group"
     >
       <img
-        className="w-[200px] h-[200px] rounded-full"
+        className="w-[160px] h-[160px] rounded-[50%] object-cover"
         src={image}
         alt={name}
       />
